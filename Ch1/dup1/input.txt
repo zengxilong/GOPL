@@ -1,0 +1,7 @@
+stay hungry
+stay foolish
+i wish you have a better life
+stay hungry
+stay foolish
+input cmd "cat input.txt | go run main.go" to run this program
+or run the program directly and enter text, ending with ctrl-d

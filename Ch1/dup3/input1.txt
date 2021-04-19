@@ -1,0 +1,6 @@
+stay hungry
+stay foolish
+i wish you have a better life
+stay hungry
+stay foolish
+run the program with some args(file names)
