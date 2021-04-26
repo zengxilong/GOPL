@@ -1,0 +1,3 @@
+cmd = "cat input.txt | go run main.go"
+@#$1234  hello
+*()
