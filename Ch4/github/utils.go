@@ -16,7 +16,7 @@ func SearchIssues(term []string) (*IssuesSearchResult, error) {
 	}
 	if resp.StatusCode != http.StatusOK {
 		resp.Body.Close()
-		return nil, fmt.Errorf("search query failed: %s\n", resp.StatusCode)
+		return nil, fmt.Errorf("search query failed: %s\n", resp.Status)
 	}
 	var result IssuesSearchResult
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
